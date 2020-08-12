@@ -1,5 +1,5 @@
 flask
 numpy
-opencv-python
+opencv-contrib-python==4.2.0.34
 Werkzeug
 gunicorn
