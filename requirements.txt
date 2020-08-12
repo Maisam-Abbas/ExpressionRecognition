@@ -9,17 +9,11 @@ decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
 Flask==1.1.1
-ipykernel==5.1.4
-ipython==7.13.0
-ipython-genutils==0.2.0
-isort==4.3.21
 itsdangerous==1.1.0
 jedi==0.16.0
 Jinja2==2.11.1
 joblib==0.16.0
 jsonschema==3.2.0
-jupyter-client==6.0.0
-jupyter-core==4.6.3
 kiwisolver==1.2.0
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
@@ -28,13 +22,11 @@ mccabe==0.6.1
 mistune==0.8.4
 nbconvert==5.6.1
 nbformat==5.0.4
-notebook==6.0.3
 numpy==1.18.1
 opencv-contrib-python==4.2.0.34
 opencv-python==4.2.0.34
 pandocfilters==1.4.2
 parso==0.6.2
-pickleshare==0.7.5
 prometheus-client==0.7.1
 prompt-toolkit==3.0.4
 Pygments==2.6.1
@@ -60,3 +52,4 @@ wcwidth==0.1.8
 webencodings==0.5.1
 Werkzeug==1.0.0
 wrapt==1.11.2
+gunicorn==19.9.0
