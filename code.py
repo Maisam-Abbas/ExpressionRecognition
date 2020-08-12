@@ -1,5 +1,5 @@
 import os
-#import cv2
+import cv2
 import numpy as np
 from flask import Flask, render_template, request, jsonify, flash, redirect
 from werkzeug.utils import secure_filename
