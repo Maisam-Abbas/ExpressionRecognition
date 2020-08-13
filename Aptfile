@@ -5,3 +5,4 @@ libice6
 libxext6
 libgl1-mesa-glx
 libxrender-dev
+xcb
