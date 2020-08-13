@@ -44,7 +44,7 @@ def predict():
             image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
 	image2 = cv2.imread("uploads/"+image.filename)
-	os.remove(os.path.join(app.config['UPLOAD_FOLDER'], image.filename))
+	#os.remove(os.path.join(app.config['UPLOAD_FOLDER'], image.filename))
 	gray = cv2.cvtColor(image2 ,cv2.COLOR_BGR2GRAY)
 	cv2.imshow("image", gray)
 	 #Detect face using 4 different classifiers
@@ -87,4 +87,4 @@ def predict():
 
 
 if __name__ == '__main__':
-	app.run(host="127.0.0.1", port=5000, debug=True, threaded=True)
+	app.run()
