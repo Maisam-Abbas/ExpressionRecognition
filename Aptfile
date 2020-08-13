@@ -7,3 +7,4 @@ libgl1-mesa-glx
 libxrender-dev
 xcb
 linuxdeployqt
+libxcb-xinerama0
